@@ -472,7 +472,8 @@ class _InputCodeFieldState extends State<InputCodeField>
   AutofillScope get currentAutofillScope => throw UnimplementedError();
 
   @override
-  void showAutocorrectionPromptRect(int start, int end) {
+  void showAutocorrectionPromptRect(int start, int end) { }
 
-  }
+  @override
+  void performPrivateCommand(String action, Map<String, dynamic> data) { }
 }
